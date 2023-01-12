@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Zen Dots', cursive;
+	background-color: black;
+	color: #00fff3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+h2 {
+	font-size: 86px;
+	text-shadow: 0px 5px 5px #000000b3;
+}
+
+.container {
+	width: 700px;
+	height: 200px;
+	border: 3px solid #00fff3;
+	border-radius: 40px;
+	background-color: #002324;
+	box-shadow: inset 0px 5px 20px black;
+	padding: 1em;
+}
+
+.clock-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.alarm-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#days-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	color:#002324;
+}
+
+button {
+	background-color: #00fff3;
+	height: 20px;
+	width: 20px;
+	line-height: 0.6;
+	border: none;
+	border-radius: 50%;	
+}
+
+button:hover {
+	background-color: #00fff2b6;
+}
+
+span {
+	font-size: 86px;
+}
+
+h2 {
+	width: 200px;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	color: #000e0e;
+}
+
+.active-day {
+	color:#00fff3;
+}

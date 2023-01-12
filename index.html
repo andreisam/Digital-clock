@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <ul id="days-container">
+            <li id="mon">MON</li>
+            <li id="tue">TUE</li>
+            <li id="wed">WED</li>
+            <li id="thu">THU</li>
+            <li id="fri">FRI</li>
+            <li id="sat">SAT</li>
+            <li id="sun">SUN</li>
+        </ul>
+        <div class="clock-container">
+            <h2 id="hours"></h2><span> : </span>
+            <h2 id="minutes"></h2><span> : </span>
+            <h2 id="seconds"></h2>
+        </div>
+        <div class="alarm-container">
+            <h3>Set alarm for: </h3>
+            <div class="set-hours">
+                <div id="hour-display">0</div>
+                <button id="hour-plus">+</button>
+                <button id="hour-minus">-</button>
+            </div>
+            <div class="set-minutes">
+                <div id="minute-display">0</div>
+                <button id="minute-plus">+</button>
+                <button id="minute-minus">-</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
